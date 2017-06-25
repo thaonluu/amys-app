@@ -3,11 +3,13 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'thaos site' });
+  res.render('index', { title: 'thaos site'});
 });
 
 router.get('/users', function(req, res, next) {
-  res.send('respond with a resource');
+  // res.send('respond with a resource');
+  res.render('users', { title: 'users site'});
+
 });
 
 

@@ -1,9 +1,21 @@
-.section {
+.top {
   height: 100vh;
   position: relative;
   width: 100%;
   min-height: 350px;
+  background-image:  url('../images/grand_teton.JPG');
   background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center center;
+}
+
+.home-text {
+  height: 100%;
+  width: 100%;
+  opacity: 0.3;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }

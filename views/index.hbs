@@ -7,7 +7,8 @@
           <li><a class="waves-effect waves-light btn">Button</a></li>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#initialization">initialization</a></li>
+          <li><a href="#initialization">Initialization</a></li>
+          <li><a href="#contact">Contact</a></li
         </ul>
       </div>
     </nav>
@@ -15,18 +16,57 @@
 
   <div class="row">
     <div class="col s12 m9 l10" style="width: 100%; padding: 0;">
-      <div id="home" class="section top scrollspy" style="padding: 0;">
+      <div id="home" class="section section1 scrollspy" style="padding: 0;">
         <div class="home-text">
-         <span style="opacity: 1;">Hi, I'm Thao</span>
+         <span class="intro-text" ">Hi, I'm Thao. I'm a front-end web developer.</span>
         </div>
       </div>
 
-      <div id="about" class="section bottom scrollspy"">
-        <p>Content2 </p>
+      <div id="about" class="section section2 scrollspy"">
+        <h3><center>My Skills</center></h3>
+        <span><center>The following are langages, frameworks, techniques and tools that I've used in my past projects: </center></span>
+        <br><br>
+        <span><center>
+          <div class="row">
+            <a class="waves-effect waves-light grey btn">HTML5</a>
+            <a class="waves-effect waves-light grey btn">CSS3</a>
+            <a class="waves-effect waves-light grey btn">Javascript</a>
+            <a class="waves-effect waves-light grey btn">Sass</a>
+            <a class="waves-effect waves-light grey btn">Handlebars.js</a>
+          </div>
+          <div class="row">
+            <a class="waves-effect waves-light grey btn">Node.js</a>
+            <a class="waves-effect waves-light grey btn">Express.js</a>
+            <a class="waves-effect waves-light grey btn">Git</a>
+            <a class="waves-effect waves-light grey btn">Java</a>
+            <a class="waves-effect waves-light grey btn">C++</a>
+          </div>
+          <div class="row">
+            <a class="waves-effect waves-light grey btn">MySQL</a>
+            <a class="waves-effect waves-light grey btn">PostgreSQL</a>
+            <a class="waves-effect waves-light grey btn">Bootstrap</a>
+            <a class="waves-effect waves-light grey btn">Materialize</a>
+          </div>
+          <div class="row">
+            <a class="waves-effect waves-light grey btn">Github</a>
+            <a class="waves-effect waves-light grey btn">Functional Testing</a>
+            <a class="waves-effect waves-light grey btn">White/Black Box testing</a>
+
+          </div>
       </div>
 
-      <div id="initialization" class="section bottom scrollspy">
+      <div id="initialization" class="section section3 scrollspy">
         <p>Content3 </p>
+      </div>
+
+      <div id="contact" class="section section4 scrollspy">
+        <h4><center>Contact Me</center></h4>
+        <span><center></center></span>
+        <br><br>
+        <span><center>
+          <a href="https://www.linkedin.com/in/duchluong/" class="fa fa-linkedin"></a>
+          <a href="https://www.instagram.com/0aht/" class="fa fa-instagram"></a>
+        </center></span>
       </div>
     </div>
 
@@ -34,3 +74,12 @@
       
 
 </div>
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.scrollspy').scrollSpy({
+      scrollOffset: 55
+    });
+  });
+</script>

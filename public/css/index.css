@@ -10,12 +10,12 @@
 
 .home-text {
   height: 100%;
-  width: 100%;
+  min-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 52px;
+  font-size: 4vw;
   font-weight: bold; }
 
 .intro-text {

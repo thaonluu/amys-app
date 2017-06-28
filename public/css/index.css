@@ -16,6 +16,9 @@
   font-size: 3.9vw;
   font-weight: bold; }
 
+.intro-text, .more-text {
+  margin: 20vh 0 5vh 0; }
+
 .section2 {
   padding: 4rem 9rem 0 9rem !important;
   height: 97vh;

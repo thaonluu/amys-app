@@ -24,6 +24,8 @@
 .intro-text {
   position: absolute;
   bottom: 60%;
+  display: flex;
+  justify-content: center;
 }
 
 .section2 {
@@ -64,6 +66,5 @@
   position: relative;
   width: 100%;
   min-height: 350px;
-  background-color: #DDDDDD;
   
 }

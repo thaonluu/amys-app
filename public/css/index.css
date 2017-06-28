@@ -20,7 +20,9 @@
 
 .intro-text {
   position: absolute;
-  bottom: 60%; }
+  bottom: 60%;
+  display: flex;
+  justify-content: center; }
 
 .section2 {
   padding: 4rem 9rem 0 9rem !important;
@@ -53,7 +55,6 @@
   height: 97vh;
   position: relative;
   width: 100%;
-  min-height: 350px;
-  background-color: #DDDDDD; }
+  min-height: 350px; }
 
 /*# sourceMappingURL=index.css.map */

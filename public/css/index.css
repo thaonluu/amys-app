@@ -20,7 +20,8 @@
 
 .intro-text {
   position: absolute;
-  bottom: 60%; }
+  bottom: 60%;
+  text-align: left; }
 
 .section2 {
   padding: 4rem 9rem 0 9rem !important;

@@ -19,13 +19,16 @@
   font-weight: bold;
 }
 
-.intro-text, .more-text {
-  margin: 20vh 0 5vh 0;
+.intro-text,{
+  margin-top: 20vh;
+}
+
+.hire-text {
+  margin: 10vh 0 12vh 0;
 }
 
 
 .section2 {
-  padding: 4rem 9rem 0 9rem !important;
   height: 97vh;
   position: relative;
   width: 100%;
@@ -47,6 +50,11 @@
 
 .fa-linkedin {
     background: #0077B5;
+    color: white;
+}
+
+.fa-google {
+    background: #DD4B39;
     color: white;
 }
 

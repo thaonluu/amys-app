@@ -80,21 +80,21 @@
                 <div class="modal-content">
                   
                   <div class="slider">
-                    <ul class="slides">
+                    <ul class="slides" style="height: initial;">
                       <li>
-                        <img class="materialboxed" data-caption="Home page" src="../images/home.png">
+                        <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="Home page" src="../images/home.png">
                       </li>
                       <li>
-                        <img class="materialboxed" data-caption="Signin modal" src="../images/signin.png">
+                        <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="Signin modal" src="../images/grand_teton.JPG">
                       </li>
                       <li>
-                        <img class="materialboxed" data-caption="Search results" src="../images/search.png">
+                        <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="Search results" src="../images/search.png">
                       </li>
                       <li>
-                        <img class="materialboxed" data-caption="Item's details page" src="../images/details.png">
+                        <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="Item's details page" src="../images/details.png">
                       </li>
                       <li>
-                        <img class="materialboxed" data-caption="My items page" src="../images/my_items.png"> 
+                        <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="My items page" src="../images/my_items.png"> 
                       </li>                                        
                     </ul>
                   </div>
@@ -146,7 +146,7 @@
     });
 
     $('.modal').modal();
-    $('.slider').slider({ transition:600 });
+    $('.slider').slider({ interval: 90000000, height:300});
     $('.materialboxed').materialbox();
   });
 </script>

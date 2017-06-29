@@ -13,8 +13,8 @@
     </nav>
   </div>
 
-  <div class="page-content">
-    <div id="home" class=" section section1 scrollspy">
+  <div class="page-content row">
+    <div id="home" class="col m12 s12 section section1 scrollspy">
       <div class="home-content row">
         <div class="intro-text col s12 center">Hi, I'm Thao. I'm a front-end web developer.</div>
         <div class="hire-text col s12 center">
@@ -27,7 +27,7 @@
       </div>
     </div>
 
-    <div id="skills" class="section section2 scrollspy">
+    <div id="skills" class="col m12 s12 section section2 scrollspy">
       <h3><center>My Skills</center></h3>
       <span><center>The following are langages, frameworks, techniques and tools that I've used in my past projects: </center></span>
       <br><br>
@@ -36,16 +36,15 @@
           <a class="waves-effect waves-light skill-btn grey btn">HTML5</a>
           <a class="waves-effect waves-light skill-btn grey btn">CSS3</a>
           <a class="waves-effect waves-light skill-btn grey btn">Javascript</a>
+          <a class="waves-effect waves-light skill-btn grey btn">Sass</a>
           <a class="waves-effect waves-light skill-btn grey btn">Git</a>
           <a class="waves-effect waves-light skill-btn grey btn">Node.js</a>
           <a class="waves-effect waves-light skill-btn grey btn">Express.js</a>
-          <a class="waves-effect waves-light skill-btn grey btn">Sass</a>
-          <a class="waves-effect waves-light skill-btn grey btn">Github</a>          
+          <a class="waves-effect waves-light skill-btn grey btn">Handlebars.js</a>
           <a class="waves-effect waves-light skill-btn grey btn">Java</a>
           <a class="waves-effect waves-light skill-btn grey btn">C++</a>
           <a class="waves-effect waves-light skill-btn grey btn">MySQL</a>
           <a class="waves-effect waves-light skill-btn grey btn">PostgreSQL</a>
-          <a class="waves-effect waves-light skill-btn grey btn">Handlebars.js</a>
           <a class="waves-effect waves-light skill-btn grey btn">Bootstrap</a>
           <a class="waves-effect waves-light skill-btn grey btn">Materialize</a>
           <a class="waves-effect waves-light skill-btn grey btn">Functional Testing</a>
@@ -55,9 +54,73 @@
       </div>
     </div>
 
-    <div id="projects" class="section section3 scrollspy">
-      <p>Content3 </p>
+    <div class="divider col m12 s12"></div>
+
+    <div id="projects" class="col m12 s12 section section3 scrollspy">
+      <div class="projects-wrapper">
+        <h3><center>Projects</center></h3>
+        
+        <div class="container">
+          <div class="row valign-wrapper">
+            <div class="col s6 offset-s3 valign">
+              <div class="card">
+                <div class="card-image">
+
+                  <span class="card-title">Card Title</span>
+                  <a class="click waves-effect waves-light grey lighten-3" href="#modal1">
+                    <img src="../images/grand_teton.JPG"> 
+                    <span class="card-title">Card Title</span>
+                  </a>
+                  
+                  
+                </div>
+              </div>
+
+              <div id="modal1" class="modal">
+                <div class="modal-content">
+                  
+                  <div class="slider">
+                    <ul class="slides">
+                      <li>
+                        <img class="materialboxed" data-caption="Home page" src="../images/home.png">
+                      </li>
+                      <li>
+                        <img class="materialboxed" data-caption="Signin modal" src="../images/signin.png">
+                      </li>
+                      <li>
+                        <img class="materialboxed" data-caption="Search results" src="../images/search.png">
+                      </li>
+                      <li>
+                        <img class="materialboxed" data-caption="Item's details page" src="../images/details.png">
+                      </li>
+                      <li>
+                        <img class="materialboxed" data-caption="My items page" src="../images/my_items.png"> 
+                      </li>                                        
+                    </ul>
+                  </div>
+
+
+
+                  <h4><strong>GatorBay</strong></h4>
+                  <p>This was a project I worked on with 5 other students in my last year of college. In this project, I was in charge of the front-end and design aspects. I designed the mock-ups and did most of the front-end code. I also helped with the QA/testing process. This project was my first time getting hands on experience with software development. I had zero experience working in such a big group before. It was also my first time putting my front-end skills to test, and my source control (git) knowledge was also enhanced.</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="row center">
+          <span>More to come...</span>
+        </div>
+      </div>
     </div>
+
+    <div class="divider col m12 s12"></div>
+
 
     <div id="contact" class="section section4 scrollspy">
       <h4><center>Contact Me</center></h4>
@@ -81,5 +144,9 @@
     $('.scrollspy').scrollSpy({
       scrollOffset: 55
     });
+
+    $('.modal').modal();
+    $('.slider').slider({ transition:600 });
+    $('.materialboxed').materialbox();
   });
 </script>

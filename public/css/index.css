@@ -1,6 +1,8 @@
+.modal {
+  max-height: 85% !important; }
+
 .section1 {
-  height: 97vh;
-  position: relative;
+  height: 98vh;
   width: 100%;
   min-height: 350px;
   background-image: url("../images/grand_teton.JPG");
@@ -12,25 +14,47 @@
   height: 100%;
   min-width: 100%;
   color: white;
-  font-size: 47px;
-  font-size: 3.9vw;
-  font-weight: bold; }
-
-.skill-btn {
-  margin: 10px; }
+  font-size: 4px;
+  font-size: 3.9vw; }
 
 .intro-text {
-  margin-top: 20vh; }
+  margin-top: 20vh;
+  font-weight: bold; }
 
 .hire-text {
   margin: 10vh 0 12vh 0; }
 
 .section2 {
+  height: 75vh;
+  height: auto;
+  width: 100%;
+  min-height: 350px;
+  font-size: 18px;
+  margin: 5vh 0 5vh 0; }
+
+.skill-btn {
+  margin: 10px; }
+
+.section3 {
   height: 97vh;
+  height: auto;
   position: relative;
   width: 100%;
   min-height: 350px;
-  font-size: 18px; }
+  background-color: #FFFFFF; }
+
+.projects-wrapper {
+  margin: 7vh 0 10vh 0; }
+
+.project-contents {
+  display: flex;
+  justify-content: center; }
+
+.img2 {
+  background-image: url("../images/grand_teton.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
 
 .fa {
   padding: 20px;
@@ -53,12 +77,5 @@
 .fa-instagram {
   background: #125688;
   color: white; }
-
-.section3 {
-  padding: 3.5rem 7rem 0 5rem !important;
-  height: 97vh;
-  position: relative;
-  width: 100%;
-  min-height: 350px; }
 
 /*# sourceMappingURL=index.css.map */

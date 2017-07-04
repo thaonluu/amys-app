@@ -1,6 +1,9 @@
 .modal {
   max-height: 85% !important; }
 
+.page-content {
+  margin-bottom: 0 !important; }
+
 .section1 {
   height: 98vh;
   width: 100%;

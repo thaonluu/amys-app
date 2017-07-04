@@ -52,6 +52,17 @@
   
 }
 
+.each-project {
+  width: inherit;
+  height: inherit;
+}
+
+
+.each-project:hover { 
+  background-color: #777777;
+  opacity: .3;
+}
+
 .projects-wrapper {
   margin: 7vh 0 10vh 0;
 }

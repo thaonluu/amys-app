@@ -1,5 +1,5 @@
 .modal {
-  max-height: 85% !important; }
+  max-height: 80% !important; }
 
 .page-content {
   margin-bottom: 0 !important; }
@@ -46,13 +46,20 @@
   min-height: 350px;
   background-color: #FFFFFF; }
 
-.each-project {
-  width: inherit;
-  height: inherit; }
-
-.each-project:hover {
+.project-img {
   background-color: #777777;
-  opacity: .3; }
+  opacity: .4; }
+
+.project-img:hover {
+  background-color: transparent;
+  opacity: 1; }
+
+.project-text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .projects-wrapper {
   margin: 7vh 0 10vh 0; }

@@ -1,24 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script type="text/javascript">
-    !function(name,path,ctx){
-      var latest,prev=name!=='Keen'&&window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName('head')[0],s=document.createElement('script'),w=window,loaded;s.onload=s.onerror=s.onreadystatechange=function(){if((s.readyState&&!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.parentNode.insertBefore(s,h)}}
-    }('KeenAsync','https://d26b395fwzu5fz.cloudfront.net/keen-tracking-1.1.3.min.js',this);
+  <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    KeenAsync.ready(function(){
-      // Configure a client instance
-      var client = new KeenAsync({
-        projectId: '595ea61dc9e77c000128d2d1',
-        writeKey: 'CAFF656ECE41C9A9A6B16ADDC8CEF7F8800BAFA02C95C384FA9076199AD305DE79FD96E9A7D9572F8A09C264DF290A01AD91361D2AD8554B3D2925BD7856D9EF5243E372A448432CC12FF688D264C09B7DC3EEAF9F8480C1BB10B24F6E931384'
-      });
+  ga('create', 'UA-102183988-1', 'auto');
+  ga('send', 'pageview');
 
-      // Record an event
-      client.recordEvent('pageviews', {
-        title: document.title
-      });
-    });
-  </script>
+</script>
+  <!-- End Google Analytics -->
 
   <meta charset="utf-8">
   <meta htp-equiv="x-ua-compatible" content="ie=edge">

@@ -65,12 +65,13 @@
         
         <div class="container">
           <div class="row valign-wrapper">
-            <div class="col s6 offset-s3 valign">
+
+            <div class="col s6 ">
               <div class="card">
                 <div class="card-image">
                   
-                  <a class="click waves-effect waves-light black lighten-3" href="#modal1">
-                    <img class="project-img" src="../images/home.png"> 
+                  <a class="click waves-effect waves-light black lighten-3" href="#gb-modal">
+                    <img class="project-img" style="max-height: 200px; object-fit: cover;" src="../images/home.png"> 
                     <span class="project-text card-title">Gatorbay</span>
 
                   </a>
@@ -78,42 +79,84 @@
                   
                 </div>
               </div>
+            </div>
 
-              <div id="modal1" class="modal">
-                <div class="modal-content">
+            <div class="col s6 ">
+              <div class="card">
+                <div class="card-image">
                   
-                  <div class="slider">
-                    <ul class="slides" style="height: initial;">
-                      <li>
-                        <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="Home page" src="../images/home.png">
-                      </li>
-                      <li>
-                        <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="Signin modal" src="../images/add_item.png">
-                      </li>
-                      <li>
-                        <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="Search results" src="../images/search.png">
-                      </li>
-                      <li>
-                        <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="Item's details page" src="../images/details.png">
-                      </li>
-                      <li>
-                        <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="Search results" src="../images/signin.png">
-                      </li>
-                      <li>
-                        <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="My items page" src="../images/my_items.png"> 
-                      </li>                                        
-                    </ul>
-                  </div>
+                  <a class="click waves-effect waves-light black lighten-3" href="#ww-modal">
+                    <img class="project-img" src="../images/index.png"> 
+                    <span class="project-text card-title">Werewolf</span>
 
-                  <h4><strong>GatorBay</strong></h4>
-                  <p>This was a project I worked on with 5 other students in my last year of college. In this project, I was in charge of the front-end and design aspects. I designed the mock-ups and did most of the front-end code. I also helped with the QA/testing process. This project was my first time getting hands on experience with software development. I had zero experience working in such a big group before. It was also my first time putting my front-end skills to test, and my source control (git) knowledge was also enhanced.</p>
-                </div>
-                <div class="modal-footer">
-                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </a>                  
                 </div>
               </div>
-
             </div>
+
+            <div id="gb-modal" class="modal">
+              <div class="modal-content">
+                
+                <div class="slider">
+                  <ul class="slides" style="height: initial;">
+                    <li>
+                      <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="Home page" src="../images/home.png">
+                    </li>
+                    <li>
+                      <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="Signin modal" src="../images/add_item.png">
+                    </li>
+                    <li>
+                      <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="Search results" src="../images/search.png">
+                    </li>
+                    <li>
+                      <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="Item's details page" src="../images/details.png">
+                    </li>
+                    <li>
+                      <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="Search results" src="../images/signin.png">
+                    </li>
+                    <li>
+                      <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="My items page" src="../images/my_items.png"> 
+                    </li>                                        
+                  </ul>
+                </div>
+
+                <h5><strong>GatorBay (SFSU software engineering project)</strong></h5>
+                <a href="https://drive.google.com/file/d/0B3hoBeHskrebMTAtUmQ3Y1FRNXc/view">Demo video</a>
+                <p>This was a project I worked on with 5 other students in my last year of college. In this project, I was in charge of the front-end and design aspects. I designed the mock-ups and did most of the front-end code. I also helped with the QA/testing process. This project was my first time getting hands on experience with software development. I had zero experience working in such a big group before. It was also my first time putting my front-end skills to test, and my source control (git) knowledge was also enhanced.</p>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-purple btn-flat">Close</a>
+              </div>
+            </div>
+
+            <div id="ww-modal" class="modal">
+              <div class="modal-content">
+                
+                <div class="slider">
+                  <ul class="slides" style="height: initial;">
+                    <li>
+                      <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="Home page" src="../images/index.png">
+                    </li>
+                    <li>
+                      <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="About page" src="../images/about.png">
+                    </li>
+                    <li>
+                      <img class="materialboxed vertical-align" style="object-fit: cover;" data-caption="The outcome of the game" src="../images/result.png">
+                    </li>                                       
+                  </ul>
+                </div>
+
+                <h5><strong>Werewolf (SFSU Internet Application Design and Development)</strong></h5>
+                <a href="http://csc667-werewolf.herokuapp.com/">View project on Heroku</a>
+                <p>The project was mostly logic oriented. I worked on mostly the front end using Material Design Lite. I also helped with the database using PostgreSQL with pgAdmin and db-migrate. Werewolf was implemented with: Node.js, Express.js, Handlebars.js, Passport.js, Socket.io, Material Design Lite, and PostgreSQL.</p>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-purple btn-flat">Close</a>
+              </div>
+            </div>
+
+
+            <!-- </div> -->
           </div>
         </div>
 
